@@ -6,7 +6,11 @@ function Home() {
   return (
     
     <div className={style.main_box}>
+        
       <LeftSidebar/>
+      <div>jjjjjj</div>
+      hyhyy
+      
     </div>
   )
 }

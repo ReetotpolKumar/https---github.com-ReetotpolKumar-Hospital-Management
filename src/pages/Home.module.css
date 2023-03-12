@@ -14,10 +14,10 @@
     width: 95vw;
     height: 95vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: aquamarine;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: grey;
     overflow: hidden;
     border-radius: 1rem;
-    box-shadow: 2px 2px 8px aquamarine;
+    box-shadow: 5px 5px 10px aquamarine;
 }
