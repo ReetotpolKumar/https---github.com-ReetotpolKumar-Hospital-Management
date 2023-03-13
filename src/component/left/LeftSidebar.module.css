@@ -1,7 +1,7 @@
 .sidebar_grid
 {
  background: white;
- box-shadow: 1px 0px 4px rgb(109, 109, 224);
+ box-shadow: 0px 0px 12px 0px rgb(109, 109, 224);
 width: 17%;
  height: 100%;
  overflow:auto;
@@ -93,4 +93,54 @@ width: 17%;
    border-bottom-right-radius: 10px;
    background: rgb(109, 109, 224);
 
+}*/
+.sidebar_card
+{
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+}
+.sidebar_card .icon{
+position: absolute;
+background: palegreen;
+border:10px solid white;
+font-size: 3rem;
+border-radius: 50%;
+top: -8px;
+right: 50%;
+transform: translate(50%);
+z-index: 100;
+}
+.card_content
+{
+    position: relative;
+padding: 1rem;
+padding-top: 2rem;
+background:palegreen;
+border-radius: 10px;
+box-shadow:5px 5px 120px rgb(109, 109, 224);
+}
+.btn
+{
+    border: none;
+    margin-top: 3.5%;
+    padding: .5rem;
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 5px;
+}
+/*.circle1,.circle2
+{
+    position: absolute;
+    background:  rgb(109, 109, 224);
+    border-radius: 50%;
+   opacity: .6;
+}
+.circle1
+{
+    height: 50px;
+    width: 50px;
+    top:0px;
+    left:-2px;
 }*/

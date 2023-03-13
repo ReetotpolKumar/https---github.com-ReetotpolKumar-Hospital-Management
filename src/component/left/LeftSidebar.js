@@ -4,6 +4,8 @@ import logo from "./logo.png"
 
 import { IoMdSpeedometer } from 'react-icons/io';
 import { MdDeliveryDining } from 'react-icons/md';
+import {BsQuestionCircle } from 'react-icons/bs';
+
 
 const menu=[{
 
@@ -60,7 +62,15 @@ function LeftSidebar() {
         </ul>
 
         <div className={style.sidebar_card}>
-                
+                <BsQuestionCircle className={style.icon}/>
+                <div className={style.card_content}>
+                  <div className={style.circle1}></div>
+                  <div className={style.circle2}></div>
+                  <h3>Help Center</h3>
+                  <p>Trouble to access this page?Contact us</p>
+                  <button className={style.btn}>Go to help</button>
+
+                </div>
         </div>
         
         </div>      

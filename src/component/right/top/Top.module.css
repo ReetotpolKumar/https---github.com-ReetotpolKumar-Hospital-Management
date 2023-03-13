@@ -1,0 +1,111 @@
+.topsection
+{
+    position: relative;
+}
+
+
+.header
+{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.header .title
+{
+   
+}
+.search_box
+{
+    margin-left:12rem;
+    padding: 1rem 2rem;
+    
+    background: white;
+    border-radius: 5px;
+    gap:1rem;
+    box-shadow: 0 2px 4px rgb(109, 109, 224);
+    display: flex;
+ align-items: center;
+
+}
+.search_box input
+{
+    border: none;
+    outline: none;
+    background: none;
+}
+.search_box .icon
+{
+    color:yellowgreen;
+    font-size: 1.5rem;
+    
+
+}
+.admin
+{
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 17px;
+    margin-left: 15rem;
+    background: white;
+    box-shadow: 0 2px 4px rgb(109, 109, 224);
+    color: yellowgreen;
+   
+}
+.right_card
+{
+    position: relative;
+    display: flex;
+    margin-left: 2rem;
+    width:65%; 
+    
+    height: 220px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px palegreen;
+    overflow: hidden;
+   
+}
+
+.video
+{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    top: -171px;
+    right: -38px;
+    bottom: 0;
+    left: -255px;
+    object-fit: cover;
+    
+
+}
+.right_card h2{
+    z-index: 100;
+    color: white;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+
+}
+.date
+{
+    position: relative;
+    height: 100%;
+    width: 25%;
+    background: palegreen;
+    left: 0;
+    bottom: 0;
+    border-radius: 1rem;
+    padding: 1.5rem;
+   
+}
+.date h3{
+    padding-bottom: .5rem;
+}
+.td_color
+{
+    color:rgb(1, 60, 1);
+}
