@@ -1,5 +1,6 @@
 import React from 'react'
 import LeftSidebar from '../component/left/LeftSidebar'
+import Listing from '../component/right/listing/Listing'
 import Top from '../component/right/top/Top'
 import style from "./Home.module.css"
 
@@ -12,7 +13,9 @@ function Home() {
       
 
     <Top/>
+  
     </div>
+    
     </>
       
    

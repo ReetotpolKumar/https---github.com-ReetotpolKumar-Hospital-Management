@@ -92,14 +92,17 @@
 }
 .date
 {
+    display: flex;
+    justify-content: space-between;
     position: relative;
     height: 100%;
-    width: 25%;
+    width: 30%;
     background: palegreen;
     left: 0;
     bottom: 0;
     border-radius: 1rem;
     padding: 1.5rem;
+    box-shadow: 0 2px 3px rgb(9, 228, 107);
    
 }
 .date h3{
@@ -108,4 +111,31 @@
 .td_color
 {
     color:rgb(1, 60, 1);
+    font-weight: 500;
+}
+
+.img img
+{
+   margin-left: 1rem;
+   margin-top: 2.5rem;
+    height: 75%;
+    width: 75%;
+}
+.emegency_main
+{
+    margin: 3rem;
+}
+
+.emegency_card
+{
+    position: relative;
+    min-height: 100%;
+   min-width: 20%;
+    background: rgb(109, 109, 224);
+    border-radius: 1rem;
+    box-shadow: 0 2px 3px red;
+}
+.emegency_card video
+{
+    
 }

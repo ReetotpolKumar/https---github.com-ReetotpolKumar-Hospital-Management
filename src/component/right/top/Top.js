@@ -5,7 +5,8 @@ import {TbMessageCircle} from "react-icons/tb"
 import {IoMdNotificationsOutline} from "react-icons/io"
 import {MdPeopleAlt} from "react-icons/md"
 import video from "./3.mp4"
-
+import image from "./1.png"
+import e2 from "./e2.png"
 function Top() {
     const[date,setDate]=useState()
     var today = new Date();
@@ -52,12 +53,13 @@ function Top() {
 
         </div>
         <div className={style.date}>
+            <div className={style.table_heading}>
         <h3>Today's announcement</h3>
          <table>
 
         <tr style={{color:" rgb(109, 109, 224)"}}>
-        <td style={{paddingRight:"5px"}}>Patient Name</td>
-        <td>Status</td>
+        <td style={{paddingRight:".5rem"}}>Patient Name </td>
+        <td>Patient Status</td>
 
         </tr>
         <tr class={style.td_color}>
@@ -73,14 +75,25 @@ function Top() {
             <td>Vital Signs</td>
         </tr>
          </table>
-         <div className={style.img}>
-        <img src=''></img>
-
+         
          </div>
+       
+         <div className={style.img}>
+        <img src={image}></img>
+        
+         </div>
+        
         </div>
+      
 
 
 
+    </div>
+    <div className={style.emegency_main}>
+    <div className={style.emegency_card}>
+
+    <img src={e2}></img>
+    </div>
     </div>
   
     </div>
