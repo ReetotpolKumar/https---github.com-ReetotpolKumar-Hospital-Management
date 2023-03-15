@@ -2,32 +2,35 @@ import React from 'react'
 import style from "./LeftSidebar.module.css"
 import logo from "./logo.png"
 
-import { IoMdSpeedometer } from 'react-icons/io';
-import { MdDeliveryDining } from 'react-icons/md';
+import {BsCalendar2DateFill } from 'react-icons/bs';
+import {GiPlagueDoctorProfile} from 'react-icons/gi';
+import {FaUserNurse } from 'react-icons/fa';
+import {MdLocalPharmacy } from 'react-icons/md';
+import {ImLab } from 'react-icons/im';
 import {BsQuestionCircle } from 'react-icons/bs';
 
 
 const menu=[{
 
-  icon: IoMdSpeedometer,
-  text: "Dashboard", 
+  icon: BsCalendar2DateFill,
+  text: "Appointment", 
 },
 {
 
-  icon: MdDeliveryDining,
-  text: "My Order", 
+  icon: GiPlagueDoctorProfile,
+  text: "Doctor", 
 },{
 
-  icon: MdDeliveryDining,
-  text: "My Order", 
+  icon: FaUserNurse,
+  text: "Nurse", 
 },{
 
-  icon: MdDeliveryDining,
-  text: "My Order", 
+  icon: MdLocalPharmacy,
+  text: "pharmacy", 
 },{
 
-  icon: MdDeliveryDining,
-  text: "My Order", 
+  icon: ImLab,
+  text: "laboratory", 
 },
 
 

@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
+import Calendar from 'react-calendar'
 import style from "./Top.module.css"
 import {BiSearchAlt} from "react-icons/bi"
 import {TbMessageCircle} from "react-icons/tb"
@@ -7,10 +8,45 @@ import {MdPeopleAlt} from "react-icons/md"
 import video from "./3.mp4"
 import image from "./1.png"
 import e2 from "./e2.png"
+import e5 from "./e5.png"
+import e4 from "./e4.png"
+
+
 function Top() {
-    const[date,setDate]=useState()
+    const [ isAlertVisible, setIsAlertVisible ] =useState(false);
+    const [time, setTime] = useState(new Date());
+    console.log(isAlertVisible)
+    /*const[date,setDate]=useState()
     var today = new Date();
-    let d = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+    let d = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();*/
+    const dateObj={
+        curDT : new Date().toLocaleString(),
+      }
+
+     /* useEffect(() => {
+        const interval = setInterval(() => {
+          setTime( Date());
+        }, 1000);
+        return () => clearInterval(interval);
+    }, []);*/
+   
+   
+
+   
+ const x= setTimeout(() => {
+                   setIsAlertVisible(!isAlertVisible);
+               }, 5000);
+                //clearTimeout(x);
+    
+            
+
+
+//setTimeout(()=>{clearTimeout(x)},250)
+
+
+     
+
+    
     
   return (
    <>
@@ -43,7 +79,12 @@ function Top() {
 
     <div className={style.card}>
         <div className={style.right_card}>
-            <h2>{d}</h2>
+            <h4>{time.toLocaleString()}</h4>
+           {isAlertVisible?<h5>“The body is like a piano, and happiness is like music. It is needful to have the instrument in good order."</h5>:<></>
+           
+        
+        } 
+        
             <div className={style.video}>
                 <video src={video} autoPlay muted loop ></video>
                 
@@ -89,10 +130,27 @@ function Top() {
 
 
     </div>
-    <div className={style.emegency_main}>
+    
+   
+    
+        <div className={style.emegency_main}>
+        
     <div className={style.emegency_card}>
 
     <img src={e2}></img>
+    </div>
+    
+    <div className={style.emegency_card3}>
+
+    <img src="https://www.pngmart.com/files/7/Blood-Donation-PNG-Pic.png"></img>
+    </div>
+    <div className={style.emegency_card4}>
+
+    <img src={e4}></img>
+    </div>
+    <div className={style.emegency_card5}>
+
+    <img src={e5}></img>
     </div>
     </div>
   

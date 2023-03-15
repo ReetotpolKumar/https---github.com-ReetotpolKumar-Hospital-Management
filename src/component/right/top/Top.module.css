@@ -81,10 +81,28 @@
     
 
 }
-.right_card h2{
+.right_card h4{
+    position:absolute;
     z-index: 100;
-    color: white;
+    color:white;
+    padding: .5rem;
+    
+    width: 100%;
+  
+    
 }
+.right_card h5{
+   margin-top: 5rem;
+    position:absolute;
+    z-index: 100;
+    color:Red;
+    padding: .5rem;
+    background: #b7f84f62;
+    width: 100%;
+    box-shadow: 0 2px 4px  #6d6de0;
+}
+
+
 .card{
     display: flex;
     justify-content: space-between;
@@ -124,18 +142,78 @@
 .emegency_main
 {
     margin: 3rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .emegency_card
 {
     position: relative;
-    min-height: 100%;
-   min-width: 20%;
-    background: rgb(109, 109, 224);
+   height: 100%;
+   width: 15%;
+   padding: .5rem;
+    background: #6d6de0;
     border-radius: 1rem;
-    box-shadow: 0 2px 3px red;
-}
-.emegency_card video
-{
+    box-shadow: 0 2px 4px rgb(236, 66, 66);
     
+    cursor: pointer;
+}
+.emegency_card :hover
+{
+  
+ 
+   
+    
+    
+}
+.emegency_card3
+{
+    position: relative;
+    height: 100%;
+    width: 15%;
+    padding: .5rem;
+     background: #6d6de0;
+     border-radius: 1rem;
+     box-shadow: 0 2px 4px red;
+     cursor: pointer;
+   
+}
+.emegency_card3 img
+{
+    height: 22vh;
+    width: 100%;
+}
+.emegency_card4
+{
+ 
+   
+    
+    position: relative;
+    height: 100%;
+    width: 15%;
+    padding: .5rem;
+     background: rgb(109, 109, 224);
+     border-radius: 1rem;
+     box-shadow: 0 2px 4px red;
+     cursor: pointer;
+}
+.emegency_card4 img{
+    height: 21vh;
+}
+.emegency_card5
+{
+ 
+   
+    
+ 
+}
+.emegency_card5 img{
+
+    background: palegreen;
+    height: 35vh;
+    border-radius: 1rem;
+    box-shadow: 0 2px 4px red;
+   
+    padding: 1rem;
+   
 }
