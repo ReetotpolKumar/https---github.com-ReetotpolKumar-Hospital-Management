@@ -1,0 +1,13 @@
+.main_box
+{
+    position: relative;
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color:#DCD6D0;
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px aquamarine;
+}
