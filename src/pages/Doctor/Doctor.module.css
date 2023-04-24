@@ -11,3 +11,52 @@
     border-radius: 1rem;
     box-shadow: 5px 5px 10px aquamarine;
 }
+.thead
+{
+    color:white;
+   
+    background-color: palegreen;
+    box-shadow: 0 1px 9px 1px rgba(0, 0, 0, 0.28);
+    
+}
+.th{
+padding:16px;
+
+}
+.tbody
+{
+   
+    background-color:white;
+    box-shadow: 0 1px 9px 1px rgb(56, 56, 254);
+   
+   
+   
+}
+.td {
+
+    padding: 1rem;
+}
+table{
+    border-collapse: separate;
+    border-spacing: 0 25px;
+}
+.table_position
+{
+   
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.modal
+{
+    position: absolute;
+    top: 40%;
+
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 500;
+    background-color:palegreen;
+    padding: 1rem;
+    
+   
+}
