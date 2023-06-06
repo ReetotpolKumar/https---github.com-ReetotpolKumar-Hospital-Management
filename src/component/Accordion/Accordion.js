@@ -1,11 +1,73 @@
 import React, { useState } from 'react';
+import style from "./Accorodion.module.css"
+import ReportTable from '../ReportTable/ReportTable';
 function Accordion() {
 
     const items = [
         {
-           title: "Section 1",
-           content: "This is the content of section 1"
+           title: "Section 2",
+           content: <ReportTable/>
         },
+        {
+            title: "Section 2",
+            content: <ReportTable/>
+         },
+         {
+            title: "Section 2",
+            content: <ReportTable/>
+         },
+         {
+            title: "Section 2",
+            content: <ReportTable/>
+         },
+         {
+            title: "Section 2",
+            content: <ReportTable/>
+         },
+         {
+             title: "Section 2",
+             content: <ReportTable/>
+          },
+          {
+             title: "Section 2",
+             content: <ReportTable/>
+          },
+          {
+             title: "Section 2",
+             content: <ReportTable/>
+          },
+          {
+            title: "Section 2",
+            content: <ReportTable/>
+         },
+         {
+             title: "Section 2",
+             content: <ReportTable/>
+          },
+          {
+             title: "Section 2",
+             content: <ReportTable/>
+          },
+          {
+             title: "Section 2",
+             content: <ReportTable/>
+          },
+          {
+            title: "Section 2",
+            content: <ReportTable/>
+         },
+         {
+             title: "Section 2",
+             content: <ReportTable/>
+          },
+          {
+             title: "Section 2",
+             content: <ReportTable/>
+          },
+          {
+             title: "Section 2",
+             content: <ReportTable/>
+          },
         {
            title: "Section 2",
            content: "This is the content of section 2"
@@ -26,7 +88,7 @@ const [activeIndex, setActiveIndex] = useState(-1);
       <div>
          {items.map((item, index) => (
             <div key={item.title}>
-               <button onClick={() =>handleClick(index)}>{item.title}</button>
+               <button onClick={() =>handleClick(index)} className={style.heading}>{item.title}</button>
                {index === activeIndex && <p>{item.content}</p>}
             </div>
          ))}

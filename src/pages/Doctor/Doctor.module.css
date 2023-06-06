@@ -54,9 +54,10 @@ table{
 
     left: 60%;
     transform: translate(-50%, -50%);
-    width: 500;
+    width: auto;
     background-color:palegreen;
     padding: 1rem;
+ 
     
    
 }

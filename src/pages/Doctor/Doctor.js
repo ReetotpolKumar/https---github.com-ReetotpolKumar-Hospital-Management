@@ -50,7 +50,7 @@ function Doctor() {
       <td className={style.td}><TbReportMedical style={{fontSize:'1.4rem'}}/></td>
       <td className={style.td}>viral fever</td>
       <td className={style.td}><TfiWrite style={{fontSize:'1.5rem'}}/></td>
-      <td className={style.td}><GrFormView style={{fontSize:'1.7rem' }}/></td>
+      <td className={style.td}><GrFormView style={{fontSize:'1.7rem' }}  onClick={() => setModalShow(true)}/></td>
 
     </tr>
     
